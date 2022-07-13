@@ -3643,6 +3643,11 @@ no-case@^2.2.0:
   dependencies:
     lower-case "^1.1.1"
 
+node-bin-setup@^1.0.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/node-bin-setup/-/node-bin-setup-1.1.0.tgz#9df94c41335a8f41958a639b2736f860582a209c"
+  integrity sha512-pTeU6NgUrexiLNtd+AKwvg6cngHMvj5FZ5e2bbv2ogBSIc9yhkXSSaTScfSRZnwHIh5YFmYSYlemLWkiKD7rog==
+
 node-forge@^0.10.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
@@ -3676,6 +3681,13 @@ node-libs-browser@^2.0.0:
     url "^0.11.0"
     util "^0.11.0"
     vm-browserify "^1.0.1"
+
+node@^18.5.0:
+  version "18.5.0"
+  resolved "https://registry.yarnpkg.com/node/-/node-18.5.0.tgz#8a89fa3b0a801de4888155e7ce3b7d3c60dc15c4"
+  integrity sha512-o0o7TfrD92IRQrwbvbExjl+i1ZXAyXdYS3vAMYn/1Oez6hKVnIp+bWxXBnh3USCpYK65zTW9VLAIBrCiyfhUuA==
+  dependencies:
+    node-bin-setup "^1.0.0"
 
 normalize-path@^2.1.1:
   version "2.1.1"
