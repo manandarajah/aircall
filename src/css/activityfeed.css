@@ -1,0 +1,19 @@
+.center-text-line {
+  width: 100%;
+  text-align: center;
+  border: 1px solid black;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+.center-text-line span {
+  background:#fff;
+  padding:0 10px;
+}
+
+.time-float {
+  float: right;
+  border-left: thin solid black;
+  display: inline;
+  padding-left: 2px;
+}
